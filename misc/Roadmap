@@ -1,0 +1,40 @@
+Feature candidates for 1.5:
+---------------------------
+
+Features:
+
+    - LDAP group authentication without local user (group with adldap2 migration)
+    - Webhooks support - send data via json to external URL / script
+    - Display free subnet ranges joined for each section
+    - API - permit IP/subnet as identifier insteaad of index (GET /api/test/subnets/1/ > /api/test/subnets/10.10.10.0_24/) and name for other objects
+
+
+Optional:
+    - User PowerDNS API instead of direct DB entries;
+    - KEA management via API
+    - DCIM improvements
+    - NTP Server addresses
+
+
+    New modules
+        #769  Enhancement in Inventory management
+        #653  interactive racks and DCIM improvements
+        #696  Password management
+        #545  Wirelless LAN list
+
+
+
+Ideas for next releases:
+---------------------------
+
+    + User
+        + IP address owner (from internal users - suggestions);
+        + Autocomplete mail addresses and owners from users table;
+
+    + Configurable cron from UI;
+
+    + Tools enhancements
+        + Changelog for VLANs, l2-domains, devices or vrf's, nameservers and firewallzones;
+
+    + Subnet, addresses
+    	+ assign a state to a subnet, vlan;
