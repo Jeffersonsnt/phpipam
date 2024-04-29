@@ -31,11 +31,11 @@ $Admin->validate_action($_POST['action'], true);
 
 // Array de categorias
 $categorias = array(
-    'Categoria_1',
-    'Categoria_2',
-    'Categoria_3',
-    'Categoria_4',
-    'Categoria_5',
+    'WiFi',
+    'Disitivos',
+    'Rack',
+    'Topologia',
+    'Docs',
     // Adicione mais categorias conforme necessário
 );
 
